@@ -51,6 +51,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'vickywebapptrail'
-          slot-name: 'Production'
+          slot-name: 'Development'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C4D2F2F2C1FB4E569AB7C1FD46E2E31B }}
           package: .
